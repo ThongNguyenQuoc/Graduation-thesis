@@ -1,5 +1,12 @@
 tensorboard
 easydict
+scikit-learn
+matplotlib
+pandas
+scikit-image
+menpo
+prettytable
 mxnet
-onnx
-sklearn
+torch-summary
+opencv-python
+
