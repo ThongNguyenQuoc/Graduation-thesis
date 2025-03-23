@@ -38,7 +38,7 @@ ElasticArcFace can be used for both training and inference. After installation, 
 ## 5. Dataset
 ElasticArcFace is compatible with various face recognition datasets such as GLINT360K, MS1M, and VGGFace2. You can prepare your dataset in a suitable format (e.g., image folders or a CSV file with image paths and labels) and specify the dataset path in the configuration file (e.g., configs/glint360k_r100.py).
 
-##6. Train model
+## 6. Train model
 ### 6.1. Train model
 ```shell
 !CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node=2 --nnodes=1 --node_rank=0 --master_addr="127.0.0.1" --master_port=1234 train_Elastic.py 
